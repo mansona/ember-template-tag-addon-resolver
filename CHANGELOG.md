@@ -2,6 +2,17 @@
 
 ## Release (2026-09-14)
 
+* ember-template-tag-addon-resolver 0.1.1 (patch)
+
+#### :bug: Bug Fix
+* `ember-template-tag-addon-resolver`
+  * [#7](https://github.com/mansona/ember-template-tag-addon-resolver/pull/7) fix types deployment ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
+## Release (2026-09-14)
+
 * ember-template-tag-addon-resolver 0.1.0 (minor)
 
 #### :rocket: Enhancement
