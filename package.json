@@ -11,8 +11,9 @@
   "author": "",
   "type": "module",
   "main": "src/index.js",
+  "files": ["src", "declarations"],
   "scripts": {
-    "prepack": "tsc -p ./jsconfig.json",
+    "prepublishOnly": "tsc -p ./jsconfig.json",
     "test": "vitest"
   },
   "devDependencies": {
