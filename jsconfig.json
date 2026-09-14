@@ -1,0 +1,20 @@
+{
+  "include": ["src/**/*.js"],
+  "exclude": [".pnpm/**/*"],
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "rootDir": "./src/",
+    "outDir": "declarations",
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": true,
+    "noEmit": false,
+    "skipLibCheck": true,
+    "types": [
+      "node", "events", "punycode"
+    ]
+  }
+}
