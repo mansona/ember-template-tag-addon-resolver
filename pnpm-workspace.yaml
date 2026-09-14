@@ -1,0 +1,8 @@
+packages: 
+  - '.'
+  - 'tests/fixtures/*'
+allowBuilds:
+  core-js: true
+
+overrides:
+  string_decoder: "-"
