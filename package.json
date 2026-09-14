@@ -10,11 +10,16 @@
   "license": "MIT",
   "author": "",
   "type": "module",
-  "main": "src/index.js",
   "files": [
     "src",
     "declarations"
   ],
+  "exports": {
+    ".": {
+      "default": "./src/index.js",
+      "types": "./declarations/index.d.ts"
+    }
+  },
   "scripts": {
     "prepublishOnly": "tsc -p ./jsconfig.json",
     "test": "vitest"
