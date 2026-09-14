@@ -2,6 +2,17 @@
 
 ## Release (2026-09-14)
 
+* ember-template-tag-addon-resolver 0.1.2 (patch)
+
+#### :house: Internal
+* `ember-template-tag-addon-resolver`
+  * [#9](https://github.com/mansona/ember-template-tag-addon-resolver/pull/9) fix exports for types ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
+## Release (2026-09-14)
+
 * ember-template-tag-addon-resolver 0.1.1 (patch)
 
 #### :bug: Bug Fix
