@@ -1,0 +1,22 @@
+{
+  "solution": {
+    "ember-template-tag-addon-resolver": {
+      "impact": "minor",
+      "oldVersion": "0.0.0",
+      "newVersion": "0.1.0",
+      "tagName": "latest",
+      "constraints": [
+        {
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
+        },
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :house: Internal"
+        }
+      ],
+      "pkgJSONPath": "./package.json"
+    }
+  },
+  "description": "## Release (2026-09-14)\n\n* ember-template-tag-addon-resolver 0.1.0 (minor)\n\n#### :rocket: Enhancement\n* `ember-template-tag-addon-resolver`\n  * [#3](https://github.com/mansona/ember-template-tag-addon-resolver/pull/3) Initial working version ([@mansona](https://github.com/mansona))\n\n#### :house: Internal\n* `ember-template-tag-addon-resolver`\n  * [#6](https://github.com/mansona/ember-template-tag-addon-resolver/pull/6) add a basic CI to run tests ([@mansona](https://github.com/mansona))\n  * [#5](https://github.com/mansona/ember-template-tag-addon-resolver/pull/5) make the fixture addon private ([@mansona](https://github.com/mansona))\n  * [#4](https://github.com/mansona/ember-template-tag-addon-resolver/pull/4) setup release-plan ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
+}
