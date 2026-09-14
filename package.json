@@ -1,6 +1,6 @@
 {
   "name": "ember-template-tag-addon-resolver",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "keywords": [],
   "repository": {
@@ -11,7 +11,10 @@
   "author": "",
   "type": "module",
   "main": "src/index.js",
-  "files": ["src", "declarations"],
+  "files": [
+    "src",
+    "declarations"
+  ],
   "scripts": {
     "prepublishOnly": "tsc -p ./jsconfig.json",
     "test": "vitest"
