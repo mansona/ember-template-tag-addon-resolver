@@ -10,15 +10,12 @@ let project = Project.fromDir('./tests/fixtures/v2-addon', { linkDeps: true, lin
 // these are all hacks that we should probably try to fix upstream
 project.linkDevDependency('@ember/optional-features', { baseDir: import.meta.dirname })
 
-describe("basic test", () => {
+describe("v2 addon test", () => {
   beforeEach(async () => {
     await project.write();
   })
 
   it("works", async () => {
-    // const templateTagCodemodPath = require.resolve('@embroider/template-tag-codemod').replace(/\/index.js$/, '/cli.js');
-    // console.log(templateTagCodemodPath)
-
     const { stdout, stderr } = await execa({cwd: project.baseDir})`template-tag-codemod --components=src/components/**/* --customResolver=ember-template-tag-addon-resolver`
 
     console.log(stdout, stderr)
