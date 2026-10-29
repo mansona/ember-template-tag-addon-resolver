@@ -1,5 +1,24 @@
 # Changelog
 
+## Release (2026-10-29)
+
+* ember-template-tag-addon-resolver 0.2.0 (minor)
+
+#### :rocket: Enhancement
+* `ember-template-tag-addon-resolver`
+  * [#11](https://github.com/mansona/ember-template-tag-addon-resolver/pull/11) add support for v1 addons ([@mansona](https://github.com/mansona))
+
+#### :memo: Documentation
+* `ember-template-tag-addon-resolver`
+  * [#12](https://github.com/mansona/ember-template-tag-addon-resolver/pull/12) add a basic readme ([@mansona](https://github.com/mansona))
+
+#### :house: Internal
+* `ember-template-tag-addon-resolver`
+  * [#14](https://github.com/mansona/ember-template-tag-addon-resolver/pull/14) make v1 addon fixture private ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
 ## Release (2026-09-14)
 
 * ember-template-tag-addon-resolver 0.1.2 (patch)

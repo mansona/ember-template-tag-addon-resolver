@@ -1,11 +1,19 @@
 {
   "solution": {
     "ember-template-tag-addon-resolver": {
-      "impact": "patch",
-      "oldVersion": "0.1.1",
-      "newVersion": "0.1.2",
+      "impact": "minor",
+      "oldVersion": "0.1.2",
+      "newVersion": "0.2.0",
       "tagName": "latest",
       "constraints": [
+        {
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
+        },
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :memo: Documentation"
+        },
         {
           "impact": "patch",
           "reason": "Appears in changelog section :house: Internal"
@@ -14,5 +22,5 @@
       "pkgJSONPath": "./package.json"
     }
   },
-  "description": "## Release (2026-09-14)\n\n* ember-template-tag-addon-resolver 0.1.2 (patch)\n\n#### :house: Internal\n* `ember-template-tag-addon-resolver`\n  * [#9](https://github.com/mansona/ember-template-tag-addon-resolver/pull/9) fix exports for types ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
+  "description": "## Release (2026-10-29)\n\n* ember-template-tag-addon-resolver 0.2.0 (minor)\n\n#### :rocket: Enhancement\n* `ember-template-tag-addon-resolver`\n  * [#11](https://github.com/mansona/ember-template-tag-addon-resolver/pull/11) add support for v1 addons ([@mansona](https://github.com/mansona))\n\n#### :memo: Documentation\n* `ember-template-tag-addon-resolver`\n  * [#12](https://github.com/mansona/ember-template-tag-addon-resolver/pull/12) add a basic readme ([@mansona](https://github.com/mansona))\n\n#### :house: Internal\n* `ember-template-tag-addon-resolver`\n  * [#14](https://github.com/mansona/ember-template-tag-addon-resolver/pull/14) make v1 addon fixture private ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
 }
